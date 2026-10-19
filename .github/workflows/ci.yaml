@@ -31,6 +31,10 @@ jobs:
 
       # TASK 1.1: Add your functional test step here.
 
+      - name: Run an example program
+        run: ./sdo-exo 2 10 
+
+
   # ============================================================
   # TASK 1.2 — THE UNPROTECTED DOCKER BUILD
   # ============================================================
