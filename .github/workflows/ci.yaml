@@ -32,7 +32,7 @@ jobs:
       # TASK 1.1: Add your functional test step here.
 
       - name: Run an example program
-        run: ./sdo-exo 2 10 
+        run: ./sdo-expo 2 10 
 
 
   # ============================================================
@@ -52,6 +52,7 @@ jobs:
 
   task1-docker-build:
     # TASK 1.2: Add the required job dependency here.
+    
 
     runs-on: ubuntu-latest
 
